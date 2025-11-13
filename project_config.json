@@ -1,0 +1,33 @@
+{
+    "project_name": "Explainable AI Based Customer Churn Prediction using Ensemble Learning Models",
+    "version": "1.0.0",
+    "author": "Dhruv Krrish Ghimiray",
+    "description": "Machine learning project to predict customer churn using XAI techniques.",
+    "primary_dataset": "customer_churn_data_original.csv",
+    "comparison_dataset": "telco_customer_churn_data.csv",
+    "final_dataset_used": "customer_churn_data_final.csv",
+    "data_paths": {
+        "raw": "./data/raw/",
+        "processed": "./data/processed/",
+        "external": "./data/external/"
+    },
+    "notebook_paths": {
+        "eda": "./notebooks/01_data_exploration_and_review.ipynb",
+        "preprocessing": "./notebooks/03_data_engineering_and_preprocessing.ipynb",
+        "modeling": "./notebooks/05_model_comparison_and_training.ipynb",
+        "final_analysis": "./notebooks/06_final_model_training_and_shap_analysis.ipynb"
+    },
+    "model_paths": {
+        "models": "./models/",
+        "results": "./results/"
+    },
+    "target_variable": "exited", 
+    "prediction_horizon": "30_days",
+    "metrics": [
+        "accuracy",
+        "precision",
+        "recall",
+        "f1_score",
+        "auc_roc"
+    ]
+}

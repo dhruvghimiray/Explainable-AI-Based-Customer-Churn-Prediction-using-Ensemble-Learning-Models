@@ -1,0 +1,23 @@
+# Data Science Project Requirements
+
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+jupyter>=1.0.0
+
+# Advanced Analysis and Visualization
+plotly>=5.0.0
+shap>=0.40.0
+xgboost>=1.5.0
+lightgbm>=3.3.0
+
+# Data Processing
+scipy>=1.7.0
+statsmodels>=0.13.0
+
+# Utilities
+tqdm>=4.60.0
+joblib>=1.1.0

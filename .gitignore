@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+venv/
+.venv312/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.jupyter
+.ipython
+
+# Data files (uncomment if you don't want to track large data files in git)
+# *.csv
+# *.json
+# *.pkl
+# *.h5
+# *.joblib
+
+# Models
+*.joblib
+*.pkl
+*.model
+*.h5
+*.pb
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
